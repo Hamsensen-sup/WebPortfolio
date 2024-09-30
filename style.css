@@ -12,7 +12,6 @@ body{
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
 }
 .navbar{
   background-color: #4c3422;
@@ -276,6 +275,7 @@ body{
 }
 @media screen and (max-width: 800px) {
   .cert-container{
-    width: 90%;
+    width: 100%;
+    border-radius: 0;
   }
 }
