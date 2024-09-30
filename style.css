@@ -87,6 +87,7 @@ body{
   text-align: center;
   padding: 2rem;
   margin-bottom: 2rem;
+  width: 70%;
 }
 .cert-container p{
   margin-bottom: 15px;
@@ -95,9 +96,11 @@ body{
   margin-bottom: 1rem;
 }
 .main{
-  margin-left: 15rem;
-  margin-right: 15rem;
-  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1rem;
 }
 
 .cert-image{
@@ -109,8 +112,6 @@ body{
   background-color: #f1d9c5;
   box-shadow: 1px 5px 10px #4c3422;
   margin-top: 35px;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 50px;
   text-align: center;
 }
@@ -276,8 +277,7 @@ body{
   transition: opacity 0.5s;
 }
 @media screen and (max-width: 800px) {
-  .main{
-    margin-left: 2rem;
-    margin-right: 2rem;
+  .cert-container{
+    width: 100%;
   }
 }
