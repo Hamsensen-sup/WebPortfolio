@@ -189,14 +189,12 @@ body{
 
 .box {
   flex-basis: 30%;
-  margin-bottom: 10px;
   text-align: center;
 }
 
 .box h1 {
   color: #f1d9c5;
   font-size: 30px;
-  margin-bottom: 10px;
   text-transform: uppercase;
 }
 
@@ -241,7 +239,7 @@ body{
   font-size: 1.5em;
 }
 .accordion .contentBx.active .label::before{
-  content: '-';
+  content: '_';
 }
 .accordion .contentBx .content{
   position: relative;
